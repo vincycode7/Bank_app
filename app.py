@@ -6,9 +6,7 @@ import time
 usr = dict()
 emails = list()
 
-if __name__ == "__main__":
-
-
+def main():
     while True:
         #clear screen
         os.system("reset")
@@ -204,3 +202,5 @@ if __name__ == "__main__":
         else:
             print('Invalid Respnse')
             continue
+if __name__ == "__main__":
+    main()
